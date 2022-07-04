@@ -5,12 +5,12 @@ function Encabezado(){
         <div>
             <header className="encabezado">
                 <nav id="logo">
-                    <a href="#"><img src={logo} alt="Logo Digital House"/></a>
+                    <a href="#image"><img src={logo} alt="Logo Digital House"/></a>
                 </nav>
                 <nav id="opciones">
                     <ul>
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Nosotros</a></li>
+                        <li><a href="#home">Inicio</a></li>
+                        <li><a href="#sobreNosotros">Nosotros</a></li>
                         <li><a href="#productos">Productos</a></li>
                         <li><a href="#contacto">Contacto</a></li>
                     </ul>
