@@ -3,8 +3,7 @@ import ReactDOM from 'react-dom';
 import './assets/css/master.css';
 import Web from './components/Web';
 import reportWebVitals from './reportWebVitals';
-import  SegundoComponente from './components/SegundoComponente';
-
+/* antes <SegundoComponente /> */
 ReactDOM.render(
   <React.StrictMode>
     <Web />
